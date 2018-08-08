@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PNR Enquiry</string>
+    <string name="enter_pnr">Enter 10 digit PNR</string>
+    <string name="loading">Loading...</string>
+    <string name="train_number">Train No.</string>
+    <string name="source_station">Source Station</string>
+    <string name="destination_station">Destination</string>
+    <string name="seats">Seats</string>
+    <string name="total_passengers">Total Passengers: </string>
+    <string name="distance">Distance</string>
+    <string name="current_status">Current Status</string>
+    <string name="not_found">No match found!</string>
+    <string name="title_activity_pnr_status">pnr_status</string>
+    <string name="pnr_status">PNR Status</string>
+    <string name="invalid_pnr_number">Invalid PNR number</string>
+    <string name="network_error">Network error</string>
+    <string name="pnr_number">PNR No. </string>
+    <string name="date">Date:  </string>
+    <string name="chart_prepared">Chart prepared</string>
+    <string name="chart_not_prepared">Chart not prepared yet</string>
+    <string name="from">From: </string>
+    <string name="to">To: </string>
+    <string name="Class">Class: </string>
+    <string name="check">Check</string>
+
+</resources>

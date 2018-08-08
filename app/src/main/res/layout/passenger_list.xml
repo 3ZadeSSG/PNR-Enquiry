@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/grey"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/pass_no"
+        android:layout_weight="1.5"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:background="@drawable/my_shape_rect"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/booking_status_textView"
+        android:layout_weight="1"
+        android:text="Sample"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        android:background="@drawable/my_shape_rect"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/current_status_textView"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="Sample"
+        android:elevation="8dp"
+        android:background="@drawable/my_shape_rect"
+        />
+</LinearLayout>

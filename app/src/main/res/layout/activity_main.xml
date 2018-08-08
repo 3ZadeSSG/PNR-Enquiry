@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/grey"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/details"
+    android:layout_marginTop="16dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/enter_pnr"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:id="@+id/PNR_Edit_text"
+        android:inputType="number"
+        android:background="@drawable/my_shape_rect"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button_pnr"
+        android:text="@string/check"
+        android:background="@drawable/my_shape_rect"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:layout_margin="8dp"
+        android:onClick="checkPNR"
+        />
+</LinearLayout>
+<com.github.ybq.android.spinkit.SpinKitView
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/spin_kit"
+style="@style/SpinKitView.Large.Circle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_centerInParent="true"
+android:visibility="invisible"
+app:SpinKit_Color="@color/colorAccent" />
+</RelativeLayout>
