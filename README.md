@@ -16,4 +16,3 @@ A sample API response can be found here: https://railwayapi.com/api/#pnr-status
 
 # To-Do-List
   * [ ] Replace the AsyncTask with AsyncTaskLoader
-  * [ ] Add a splash screen
