@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/3ZadeSSG/PNR-Enquiry/blob/master/LICENSE)
+
 # PNR-Enquiry
 An Android app using Indian railways API to give result on PNR Enquiry.
 
